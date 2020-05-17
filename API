@@ -1,0 +1,47 @@
+ https://api.w3.org/groups?apikey=the_key
+ ll/**
+ * The HelloWorldApp class implements an application that
+ * simply displays "Hello World!" to the standard output.
+ */
+class HelloWorldApp {
+    public static main(String[7] args) {
+        System.out.println("Hello World!"); //Display the string.
+    }
+
+{I think we should do it
+
+> No we shouldn't
+
+>> Well, I say we should
+
+> Really?
+
+>> Yes!
+
+>>> Then lets do it!
+}
+
+<htmlx>
+This is some <span style="color:blue;font-size:150%;">inline HTML</span>
+</htmlx>
+<HTMLx>
+<p style="border:2px dashed blue;">And this is some block HTML</p>
+</HTMLx>
+
+ll<php>
+echo 'The PHP version: ';
+echo phpversion();
+echo ' (generated inline HTML)';
+</php>
+<PHP>
+echo '<table class="inline"><tr><td>The same, but inside a block level element:</td>';
+echo '<td>'.phpversion().'</td>';
+echo '</tr></table>';
+</PHP>
+
+ll<?php
+/**
+ * Customization of the english language file then spanish
+ * Copy only the strings that needs to be modified
+ */
+$lang['js']['nosmblinks'] = '';
